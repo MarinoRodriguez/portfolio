@@ -2,6 +2,7 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
 import { Experience } from './components/Experience';
+import { Projects } from './components/Projects';
 import { EducationCertifications } from './components/EducationCertifications';
 
 export function App() {
@@ -12,6 +13,7 @@ export function App() {
         <Hero />
         <About />
         <Experience />
+        <Projects />
         <EducationCertifications />
       </main>
     </div>
