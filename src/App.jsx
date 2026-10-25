@@ -1,6 +1,8 @@
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
+import { Experience } from './components/Experience';
+import { EducationCertifications } from './components/EducationCertifications';
 
 export function App() {
   return (
@@ -9,6 +11,8 @@ export function App() {
       <main class="flex-1">
         <Hero />
         <About />
+        <Experience />
+        <EducationCertifications />
       </main>
     </div>
   );
