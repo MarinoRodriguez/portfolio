@@ -80,6 +80,19 @@ export function Navbar() {
             </button>
 
             <a
+              href={personalInfo.cvUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="px-3 py-1.5 text-xs font-mono font-medium rounded-lg border border-cyan-500/40 text-cyan-300 hover:bg-cyan-950/40 transition-colors inline-flex items-center gap-1.5"
+              title="Ver / Descargar Currículum Vitae en PDF"
+            >
+              <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              <span>CV</span>
+            </a>
+
+            <a
               href="#contact"
               class="px-4 py-1.5 text-xs font-semibold rounded-lg bg-gradient-to-r from-cyan-500 to-emerald-500 hover:from-cyan-400 hover:to-emerald-400 text-slate-950 shadow-md shadow-cyan-500/20 transition-all duration-200"
             >
@@ -129,6 +142,18 @@ export function Navbar() {
               </svg>
               <span>{copied ? '¡Copiado al portapapeles!' : 'Copiar email'}</span>
             </button>
+            <a
+              href={personalInfo.cvUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
+              class="w-full flex items-center justify-center gap-2 py-2 text-xs font-mono font-medium rounded-lg border border-cyan-500/40 text-cyan-300 bg-cyan-950/30"
+            >
+              <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              <span>Ver / Descargar CV (PDF)</span>
+            </a>
             <a
               href="#contact"
               onClick={() => setIsOpen(false)}

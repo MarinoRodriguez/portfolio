@@ -67,9 +67,22 @@ export function Hero() {
 
               <a
                 href="#contact"
-                class="px-6 py-3 rounded-xl border border-slate-700 bg-slate-800/80 hover:bg-slate-700/80 hover:border-slate-600 text-slate-200 font-medium text-sm transition-all duration-200"
+                class="px-5 py-3 rounded-xl border border-slate-700 bg-slate-800/80 hover:bg-slate-700/80 hover:border-slate-600 text-slate-200 font-medium text-sm transition-all duration-200"
               >
                 Ponerse en Contacto
+              </a>
+
+              <a
+                href={personalInfo.cvUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="px-5 py-3 rounded-xl border border-cyan-500/40 bg-cyan-950/30 hover:bg-cyan-900/40 text-cyan-300 hover:text-cyan-200 font-medium text-sm transition-all duration-200 inline-flex items-center gap-2"
+                title="Abrir y descargar Currículum Vitae en PDF"
+              >
+                <svg class="w-4 h-4 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+                <span>Descargar CV</span>
               </a>
 
               {/* Social icons */}
@@ -121,7 +134,9 @@ export function Hero() {
               {/* Float Experience Pill */}
               <div class="absolute -bottom-4 -left-4 sm:-bottom-5 sm:-left-5 bg-[#0b0f19]/95 border border-cyan-500/40 rounded-2xl px-4 py-2.5 shadow-xl backdrop-blur-md flex items-center gap-3">
                 <div class="w-8 h-8 rounded-lg bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-bold text-sm">
-                  ⚡
+                  <svg class="w-4 h-4 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
                 </div>
                 <div>
                   <span class="block text-xs font-mono text-slate-400">Enfoque</span>

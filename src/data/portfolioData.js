@@ -8,6 +8,7 @@ export const personalInfo = {
   github: "https://github.com/marinorodriguez",
   linkedin: "https://www.linkedin.com/in/marino-enrique-rodriguez-hernandez-59a0b5253/",
   avatar: "./images/profile.png",
+  cvUrl: "./cv-marino-rodriguez.pdf",
   about: `Soy desarrollador de software con experiencia en el diseño e implementación de soluciones tecnológicas orientadas a negocio. He trabajado tanto en el desarrollo de aplicaciones web y móviles como en la integración con sistemas empresariales, destacándome en la construcción de APIs, diseño de bases de datos y manejo de arquitecturas escalables.
 
 Tengo experiencia gestionando proyectos y desarrollando productos desde cero, incluyendo plataformas SaaS, sistemas de punto de venta (POS), sistemas de administración de jornada laboral y empleados, entre otros. Además, domino el uso de herramientas de inteligencia artificial como un aliado clave para potenciar la productividad, optimizar procesos de desarrollo y acelerar la entrega de soluciones con un enfoque práctico, analítico, atención al detalle y orientación a resultados.`,
